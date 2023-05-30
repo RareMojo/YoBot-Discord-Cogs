@@ -24,9 +24,11 @@ During the initial setup of your YoBot, the setup wizard will ask if you want to
 
 ## Cogs Management - Terminal Commands
 
-After your YoBot is set up and running, you can manage your Cogs using terminal commands. The primary command for this purpose is `getcogs`.
+After your YoBot is set up and running, you can manage your Cogs with the following methods.
 
-The `getcogs` command triggers the Cog download wizard, just like in the initial setup. Here's what you can do with this command:
+<br>
+
+### Add Cogs:
 
 1. **Download Cogs:** Trigger the Cog download wizard by running the `getcogs` command. You can choose to download all Cogs or select specific ones.
 
@@ -34,6 +36,16 @@ The `getcogs` command triggers the Cog download wizard, just like in the initial
 
 3. **Resync Discord Commands:** The `getcogs` command also offers the option to resync the commands on your Discord server with those in your YoBot.
 
+<br>
+
+### Remove Cogs
+
+1. **Remove Cogs:** Trigger the Cog removal wizard by running `removecogs` command. You can choose to remove all Cogs not on the blacklist or select specific ones.
+    
+2. **Reload Cogs:** After running the command you will need to restart YoBot to put the changes into effect.
+ 
+3. **Restart:** Prepare to shutdown. Then run `quit` or `exit`, and start YoBot your usual way.
+    
 <br>
 
 ## Conclusion
