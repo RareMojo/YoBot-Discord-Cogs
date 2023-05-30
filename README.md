@@ -1,4 +1,4 @@
-# YoBot-Discord Cogs
+# YoBot-Discord-Cogs
 
 Welcome to the official Cogs repository for the YoBot-Discord bot.
 
