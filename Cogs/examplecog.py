@@ -1,4 +1,3 @@
-import discord
 from discord.ext import commands
 
 class MyCog(commands.Cog):
@@ -10,5 +9,5 @@ class MyCog(commands.Cog):
         """A simple command that replies with a greeting."""
         await ctx.send("Hello, world!")
 
-def setup(bot):
-    bot.add_cog(MyCog(bot))
+async def setup(bot):
+    await bot.add_cog(MyCog(bot))
