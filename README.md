@@ -56,6 +56,8 @@ After your YoBot is set up and running, you can manage your Cogs with the follow
 
 :warning: (Not recommended unless you know what you're doing)
 
+<br>
+
 ```yaml
 blacklist:
   cog_removal:
@@ -83,6 +85,8 @@ The system will automatically check if any Cogs not on the blacklist fail agains
 You can disable the entire security check by enabling `dev_mode` in the config file.
 
 :warning: (Not recommended unless you know what you're doing)
+
+<br>
 
 ### Conclusion
 
