@@ -48,10 +48,66 @@ After your YoBot is set up and running, you can manage your Cogs with the follow
     
 <br>
 
-## Conclusion
+### Blacklisting
 
-Remember, the beauty of YoBot lies in its modularity offered through Cogs. 
+- You can add cogs to the removal or verification blacklist by adding their names to the `blacklist` section of the config.
 
-Select the right Cogs, customize your YoBot as per your needs, and ensure to review each Cog before installation.
+- This can be helpful for not accidentally removing a cog or if you are trying to enable a cog without a signature, but don't want to enable dev mode. :warning: (Not recommended unless you know what you're doing)
 
-Explore the repository to check out the available Cogs and their functionalities. Happy building!
+```yaml
+blacklist:
+  cog_removal:
+  - examplecog1.py
+  - examplecog2.py
+  cog_verify:
+  - examplecog1.py
+  - examplecog2.py
+```
+
+- You can also edit these through the terminal using the `removeblacklist`(`rmbl`) and `addblacklist`(`addbl`) commands.
+
+<br>
+
+## Security
+
+The beauty of YoBot lies in its modularity offered through Cogs.
+
+To try and ensure the safety of your system, a signature checking system has been implemented.
+
+All Cogs taken from this repository are supposed to be signed and safe.
+
+The system will automatically check if any Cogs not on the blacklist fail against the key.
+
+You can disable the entire security check by enabling `dev_mode` in the config file. :warning: (Not recommended unless you know what you're doing)
+
+I can't promise that this will stop all malicious Cogs, but it is surely better than nothing at all.
+
+To blacklist particular Cogs, use the `cogs_blacklist` variable in the code.
+
+Remember to review each Cog before installation.
+
+Explore the repository to check out the available Cogs and their functionalities. 
+
+<br>
+
+## Cog Submission for YoBot
+
+We are working on a simplified cog submission process for the YoBot community.
+
+1. **Create Your Cog**: Follow the guidelines below.
+    - WIP
+
+2. **Submit Your Cog**: Once ready, submit it for review.
+    - WIP
+
+3. **Verification**: We'll verify your cog to ensure safety and quality.
+    - WIP
+    
+4. **Publication**: If verified, your cog will be published in the repo.
+    - WIP
+
+We're also planning on a YoBot Developer Discord, a guild of sorts, where cog creators can gather, share ideas, and assist each other. 
+
+Please stay tuned for updates!
+
+Happy building!
