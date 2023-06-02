@@ -1,2 +1,2 @@
-FileName,CogName,Author,Description
-examplecog.py,ExampleCog,RareMojo,"An example of a Discord Cog, ready and signed for YoBot use. This is also an example of a Cog submission."
+FileName,CogName,Author,Description,Tags
+examplecog.py,ExampleCog,RareMojo,"An example of a Discord Cog, ready and signed for YoBot use. This is also an example of a Cog submission.",Tutorial
