@@ -52,7 +52,11 @@ After your YoBot is set up and running, you can manage your Cogs with the follow
 
 - You can add cogs to the removal or verification blacklist by adding their names to the `blacklist` section of the config.
 
-- This can be helpful for not accidentally removing a cog or if you are trying to enable a cog without a signature, but don't want to enable dev mode. :warning: (Not recommended unless you know what you're doing)
+- This can be helpful for not accidentally removing a cog or if you are trying to enable a cog without a signature, but don't want to enable dev mode.
+
+:warning: (Not recommended unless you know what you're doing)
+
+<br>
 
 ```yaml
 blacklist:
@@ -78,7 +82,13 @@ All Cogs taken from this repository are supposed to be signed and safe.
 
 The system will automatically check if any Cogs not on the blacklist fail against the key.
 
-You can disable the entire security check by enabling `dev_mode` in the config file. :warning: (Not recommended unless you know what you're doing)
+You can disable the entire security check by enabling `dev_mode` in the config file.
+
+:warning: (Not recommended unless you know what you're doing)
+
+<br>
+
+### Conclusion
 
 I can't promise that this will stop all malicious Cogs, but it is surely better than nothing at all.
 
