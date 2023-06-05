@@ -1,4 +1,31 @@
-# YoBot-Discord-Cogs
+<br/>
+<p align="center">
+
+  <img align="center" width="250" height="250" src="https://i.imgur.com/yPfALyd.png">
+
+  <h3 align="center">YoBot Cogs</h3>
+
+  <p align="center">
+    Customization Made Simple, YoBot, yo style!
+    <br/>
+    <br/>
+    <a href="https://github.com/RareMojo/YoBot-Discord/wiki"><strong>Explore the docs »</strong></a>
+    <br/>
+  </p>
+</p>
+ 
+<br>
+
+## Table Of Contents
+
+- Guides
+    - [Installation](https://github.com/RareMojo/YoBot-Discord/wiki/Installation)
+    - [Configuration](https://github.com/RareMojo/YoBot-Discord/wiki/Configuration)
+    - [File Structure](https://github.com/RareMojo/YoBot-Discord/wiki/Filestructure)
+    - [Extra Cog Installation](https://github.com/RareMojo/YoBot-Discord-Cogs)
+    - [Cog Creation](https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html)
+
+<br>
 
 Welcome to the official Cogs repository for the YoBot-Discord bot.
 
