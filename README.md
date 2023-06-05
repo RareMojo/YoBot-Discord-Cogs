@@ -27,6 +27,8 @@
 
 <br>
 
+## YoBot Cog Extensions Repository
+
 Welcome to the official Cogs repository for the YoBot-Discord bot.
 
 Cogs are essentially Python scripts that function as extension modules for your YoBot, allowing for additional functionality and customization.
