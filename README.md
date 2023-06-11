@@ -79,9 +79,9 @@ After your YoBot is set up and running, you can manage your Cogs with the follow
 
 ### Blacklisting
 
-- You can add cogs to the removal or verification blacklist by adding their names to the `blacklist` section of the config.
+- You can add cogs to the removal blacklist by adding their names to the `blacklist` section of the config.
 
-- This can be helpful for not accidentally removing a cog or if you are trying to enable a cog without a signature, but don't want to enable dev mode.
+- This can be helpful for not accidentally removing a cog.
 
 :warning: (Not recommended unless you know what you're doing)
 
@@ -92,40 +92,9 @@ blacklist:
   cog_removal:
   - examplecog1.py
   - examplecog2.py
-  cog_verify:
-  - examplecog1.py
-  - examplecog2.py
 ```
 
 - You can also edit these through the terminal using the `removeblacklist`(`rmbl`) and `addblacklist`(`addbl`) commands.
-
-<br>
-
-## Security
-
-The beauty of YoBot lies in its modularity offered through Cogs.
-
-To try and ensure the safety of your system, a signature checking system has been implemented.
-
-All Cogs taken from this repository are supposed to be signed and safe.
-
-The system will automatically check if any Cogs not on the blacklist fail against the key.
-
-You can disable the entire security check by enabling `dev_mode` in the config file.
-
-:warning: (Not recommended unless you know what you're doing)
-
-<br>
-
-### Conclusion
-
-I can't promise that this will stop all malicious Cogs, but it is surely better than nothing at all.
-
-To blacklist particular Cogs, use the `cogs_blacklist` variable in the code.
-
-Remember to review each Cog before installation.
-
-Explore the repository to check out the available Cogs and their functionalities. 
 
 <br>
 
